@@ -1,0 +1,30 @@
+.mainHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: lightcoral;
+}
+
+.mainHeader .logo h1 {
+  font-size: 30px;
+}
+
+.mainHeader nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.mainHeader nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mainHeader nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}

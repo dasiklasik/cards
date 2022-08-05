@@ -1,0 +1,19 @@
+.superInput {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 3px solid black;
+  outline: none;
+}
+
+.superInput::placeholder {
+  color: red;
+}
+
+.errorInput {
+  border: 3px solid red;
+}
+
+.error {
+  color: red;
+}

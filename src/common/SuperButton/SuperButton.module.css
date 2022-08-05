@@ -1,0 +1,22 @@
+.common_class {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.common_class:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.default {
+  background: #282c34;
+}
+
+.red {
+  background: red;
+}
